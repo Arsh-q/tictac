@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Kanit:wght@500&family=Luckiest+Guy&display=swap');
+.winScreen {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: 8px;
+    z-index: 1;
+    font-size: 2rem;
+}
+.winPlayer{
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+    font-size: 10rem;
+}
+.reset{
+    border: 1px solid aliceblue;
+    font-size: 1rem;
+    margin-left: 20px;
+    padding: 0.8rem 1.3rem;
+    transform: translateY(-10px);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+.reset:hover
+  {
+    background-color: red;
+    color: aliceblue;
+  }
